@@ -68,14 +68,14 @@ names = ['Victor','Landaeta','Jimenez']
 # for item in result:
 # 	print(item)
 
-result = itertools.permutations(numbers,4)
-for item1 in result:
-	for valor in range(1,len(item1)):
-		array1 = item1[:valor]
-		array2 = item1[valor:]
-		suma = abs(sum(array1)-sum(array2))
-		print(suma)
+# result = itertools.permutations(numbers,4)
+# for item1 in result:
+# 	for valor in range(1,len(item1)):
+# 		array1 = item1[:valor]
+# 		array2 = item1[valor:]
+# 		suma = abs(sum(array1)-sum(array2))
+# 		print(suma)
 
-# result = itertools.product(numbers, repeat=3)
-# for item in result:
-# 	print(item)
+result = itertools.product(numbers, repeat=3)
+for item in result:
+	print(item)

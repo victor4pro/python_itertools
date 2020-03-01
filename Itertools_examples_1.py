@@ -60,9 +60,9 @@ names = ['Victor','Landaeta','Jimenez']
 # for item in result:
 # 	print(item)
 
-# result2 = itertools.combinations(numbers,5)
-# for item in result2:
-# 	print(item)
+result2 = itertools.combinations(numbers,2)
+for item in result2:
+	print(item)
 
 # result = itertools.permutations(letters,5)
 # for item in result:
@@ -76,6 +76,6 @@ names = ['Victor','Landaeta','Jimenez']
 # 		suma = abs(sum(array1)-sum(array2))
 # 		print(suma)
 
-result = itertools.product(numbers, repeat=3)
-for item in result:
-	print(item)
+# result = itertools.product(numbers, repeat=3)
+# for item in result:
+# 	print(item)
